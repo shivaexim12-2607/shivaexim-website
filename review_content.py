@@ -3,8 +3,8 @@ import json
 from html import escape
 from product_buying_guides import FAQ
 
-ALIASES = {'cumin-seeds': 'Cumin seeds (Jeera)', 'fennel-seeds': 'Fennel seeds (Saunf)', 'alfalfa-seeds': 'Alfalfa seeds (Lucerne)'}
-PRIORITY = {'cumin-seeds', 'fennel-seeds', 'alfalfa-seeds', 'sesame-seeds'}
+ALIASES = {'cumin-seeds': 'Cumin seeds (Jeera)', 'fennel-seeds': 'Fennel seeds (Saunf)', 'alfalfa-seeds': 'Alfalfa seeds (Lucerne)', 'onion-seeds': 'Onion seeds'}
+PRIORITY = {'cumin-seeds', 'fennel-seeds', 'alfalfa-seeds', 'onion-seeds', 'sesame-seeds'}
 
 def product_metadata(product):
     slug, name, trade, group, description, *_ = product
@@ -14,10 +14,15 @@ def product_metadata(product):
     title = f'{label} Exporter from India'
     desc = f'{name} from Shiva Exim, an agricultural exporter in Mehsana, Gujarat, India. Discuss your specification, packing, quantity and destination.'
     if slug in {'cumin-seeds', 'fennel-seeds'}:
-        title = f'{label} Exporter — Gujarat, India'
-        desc = f'{label} from Shiva Exim, Mehsana, Gujarat. Listed 99% Europe and 99% Singapore quality options. Request a lot specification, sample and export quotation.'
+        word = 'Cumin' if slug == 'cumin-seeds' else 'Fennel'
+        title = f'{label} Exporter from India — Gujarat'
+        desc = f'{word} exporter in Mehsana, Gujarat, India: {label.lower()} in 99% Europe and 99% Singapore quality. Request a lot specification, sample and export quotation.'
     elif slug == 'alfalfa-seeds':
-        desc = 'Alfalfa (lucerne) planting seed enquiries from Shiva Exim, Gujarat, India. Discuss variety, germination, purity, lot reports and destination requirements.'
+        title = 'Alfalfa Seeds (Lucerne) Exporter from India'
+        desc = 'Alfalfa seed exporter in Mehsana, Gujarat, India: lucerne planting seed in single-year and multi-year quality. Discuss variety, germination, purity and lot reports.'
+    elif slug == 'onion-seeds':
+        title = 'Onion Seeds Exporter from India — Gujarat'
+        desc = 'Onion seed exporter in Mehsana, Gujarat, India: onion planting seed for crop production. Discuss variety, germination, purity, treatment and lot reports.'
     return title, desc, label
 
 def product_opening(product):
@@ -29,6 +34,8 @@ def product_opening(product):
         return f'Shiva Exim is a {label} exporter based in Mehsana, Gujarat, India, with listed 99% Europe quality and 99% Singapore quality options.'
     if slug == 'alfalfa-seeds':
         return 'Shiva Exim is an alfalfa (lucerne) planting seed exporter based in Mehsana, Gujarat, India. Variety, germination and lot documentation are assessed for the buyer’s intended growing region.'
+    if slug == 'onion-seeds':
+        return 'Shiva Exim is an onion seed exporter based in Mehsana, Gujarat, India, supplying onion planting seed for crop production. Variety, germination and lot documentation are confirmed for the buyer’s growing region.'
     return f'Shiva Exim lists {name.lower()} in its export portfolio. Share the product specification, quantity and destination for a quotation.'
 
 def regional_context():
@@ -38,7 +45,7 @@ def commercial_overview(product):
     slug, name, trade, *_ = product
     if slug not in PRIORITY:
         return ''
-    quality = '99% Europe quality · 99% Singapore quality' if slug in {'cumin-seeds','fennel-seeds'} else 'Single-year quality · Multi-year quality; confirm variety and seed report' if slug == 'alfalfa-seeds' else 'Natural or hulled; specify colour and intended use'
+    quality = '99% Europe quality · 99% Singapore quality' if slug in {'cumin-seeds','fennel-seeds'} else 'Single-year quality · Multi-year quality; confirm variety and seed report' if slug == 'alfalfa-seeds' else 'Planting seed for onion crop production; confirm variety, germination and seed report' if slug == 'onion-seeds' else 'Natural or hulled; specify colour and intended use'
     return '<section class="commercial-overview wrap"><div class="section-heading"><div><span class="eyebrow">BUYER QUICK VIEW</span><h2>Your starting specification.</h2></div></div><dl><div><dt>Product / quality options</dt><dd>'+escape(quality)+'</dd></div><div><dt>Business location</dt><dd>Mehsana, Gujarat, India</dd></div><div><dt>For a useful quotation</dt><dd>Grade, target test limits, packing, quantity, destination and shipment window</dd></div></dl><p class="small">Commercial grade names identify enquiry options. The offered lot’s analysis and final contract determine its specification.</p></section>'
 
 def product_schema(product, base, description):
