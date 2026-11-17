@@ -1,0 +1,37 @@
+# Publishes the already-built dist/ folder to GitHub Pages on every push to main.
+# To add an article: edit insights.py (+ review_content.py), run `python build.py`, commit dist/ and source, push.
+name: Deploy website to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check that dist/ matches the source
+        run: |
+          cp -r dist /tmp/dist-committed
+          python3 build.py
+          diff -r /tmp/dist-committed dist
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

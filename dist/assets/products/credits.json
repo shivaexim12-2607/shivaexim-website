@@ -1,0 +1,38 @@
+{
+  "cumin-seeds": {
+    "name": "Cumin seeds",
+    "author": "Sanjay Acharya",
+    "source": "https://commons.wikimedia.org/wiki/File:Sa_cumin.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "original_dimensions": [
+      1600,
+      1067
+    ],
+    "changes": "Resized and converted to WebP; no colour or content edits."
+  },
+  "fennel-seeds": {
+    "name": "Fennel seeds",
+    "author": "Sanjay Acharya",
+    "source": "https://commons.wikimedia.org/wiki/File:Fennel-seeds.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "original_dimensions": [
+      1600,
+      934
+    ],
+    "changes": "Resized and converted to WebP; no colour or content edits."
+  },
+  "alfalfa-seeds": {
+    "name": "Alfalfa seeds",
+    "author": "Tracey Slotta / USDA-NRCS PLANTS Database",
+    "source": "https://commons.wikimedia.org/wiki/File:Mesas_001_lhp.jpg",
+    "license": "Public domain (USDA)",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Mesas_001_lhp.jpg#Licensing",
+    "original_dimensions": [
+      900,
+      600
+    ],
+    "changes": "Resized and converted to WebP; no colour or content edits."
+  }
+}

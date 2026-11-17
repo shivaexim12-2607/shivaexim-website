@@ -1,0 +1,946 @@
+{
+  "cumin-seeds": [
+    {
+      "record_id": "cumin-seeds-1",
+      "grade": "99% Europe quality",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "purity_min": 99.0,
+      "moisture_max": 7.0,
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    },
+    {
+      "record_id": "cumin-seeds-2",
+      "grade": "99% Singapore quality",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "purity_min": 99.0,
+      "moisture_max": 7.0,
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "fennel-seeds": [
+    {
+      "record_id": "fennel-seeds-1",
+      "grade": "99% Europe quality",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "purity_min": 99.0,
+      "moisture_max": 7.0,
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    },
+    {
+      "record_id": "fennel-seeds-2",
+      "grade": "99% Singapore quality",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "fenugreek-seeds": [
+    {
+      "record_id": "fenugreek-seeds",
+      "grade": "Whole seeds",
+      "trade": "export",
+      "origins": [
+        "India",
+        "Pakistan"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        10,
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 24.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "dill-seeds": [
+    {
+      "record_id": "dill-seeds-1",
+      "grade": "Whole — machine clean",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    },
+    {
+      "record_id": "dill-seeds-2",
+      "grade": "Splits — machine clean",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 14.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "cumin-powder": [
+    {
+      "record_id": "cumin-powder",
+      "grade": "Ground spice",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 21.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "coriander-powder": [
+    {
+      "record_id": "coriander-powder",
+      "grade": "Ground spice",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 21.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "whole-chilli": [
+    {
+      "record_id": "whole-chilli",
+      "grade": "Dried whole chilli",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 10.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "chilli-powder": [
+    {
+      "record_id": "chilli-powder",
+      "grade": "Ground spice",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 18.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "turmeric": [
+    {
+      "record_id": "turmeric",
+      "grade": "Whole dried turmeric",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 13.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "turmeric-powder": [
+    {
+      "record_id": "turmeric-powder",
+      "grade": "Ground spice",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 18.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "dry-ginger": [
+    {
+      "record_id": "dry-ginger",
+      "grade": "Dried ginger",
+      "trade": "export",
+      "origins": [
+        "India",
+        "China"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "bag_material": "Jute",
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 13.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "alfalfa-seeds": [
+    {
+      "record_id": "alfalfa-seeds-1",
+      "grade": "Single-year quality",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 24.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    },
+    {
+      "record_id": "alfalfa-seeds-2",
+      "grade": "Multi-year quality",
+      "trade": "export",
+      "origins": [
+        "India",
+        "Italy"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 24.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "onion-seeds": [
+    {
+      "record_id": "onion-seeds",
+      "grade": "Planting seeds",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 13.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "sesame-seeds": [
+    {
+      "record_id": "sesame-seeds",
+      "grade": "Seeds",
+      "trade": "export",
+      "origins": [
+        "India",
+        "Brazil",
+        "Sudan"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 22.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "mustard-seeds": [
+    {
+      "record_id": "mustard-seeds-1",
+      "grade": "Bold",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 22.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    },
+    {
+      "record_id": "mustard-seeds-2",
+      "grade": "Micro",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25,
+        30,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 22.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "wheat": [
+    {
+      "record_id": "wheat",
+      "grade": "Whole grain",
+      "trade": "export",
+      "origins": [
+        "India",
+        "Turkey"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        40,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 24.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "maize": [
+    {
+      "record_id": "maize",
+      "grade": "Cattle-feed grain",
+      "trade": "export",
+      "origins": [
+        "India",
+        "Pakistan"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        40,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 23.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "foxtail-millet": [
+    {
+      "record_id": "foxtail-millet",
+      "grade": "Millet grain",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        40,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 23.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "green-millet": [
+    {
+      "record_id": "green-millet",
+      "grade": "Millet grain",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        40,
+        50
+      ],
+      "custom_packing": "Buyer branding, liners and pallet requirements by arrangement",
+      "moq_mt": 1,
+      "payload_20_mt": 24.0,
+      "payload_40_mt": 28.0,
+      "port": "Indian loading ports by arrangement",
+      "lead_time": "Usually 10–15 days after order confirmation",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation",
+      "samples": "Samples available without a product charge; shipping costs apply"
+    }
+  ],
+  "olive-oil": [
+    {
+      "record_id": "olive-oil",
+      "grade": "Oil",
+      "trade": "import",
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "popcorn": [
+    {
+      "record_id": "popcorn-1",
+      "grade": "Butterfly 38/40",
+      "trade": "import",
+      "origins": [
+        "South Africa",
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        30
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    },
+    {
+      "record_id": "popcorn-2",
+      "grade": "Butterfly 40/42",
+      "trade": "import",
+      "origins": [
+        "South Africa",
+        "Brazil",
+        "United States"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        30
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    },
+    {
+      "record_id": "popcorn-3",
+      "grade": "Butterfly 42/44",
+      "trade": "import",
+      "origins": [
+        "South Africa",
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        30
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "sunflower-seeds": [
+    {
+      "record_id": "sunflower-seeds",
+      "grade": "Seeds",
+      "trade": "import",
+      "origins": [
+        "China",
+        "Argentina",
+        "Brazil",
+        "Bulgaria"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "soybean": [
+    {
+      "record_id": "soybean",
+      "grade": "Whole beans",
+      "trade": "import",
+      "origins": [
+        "Brazil",
+        "Africa"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "pumpkin-seeds": [
+    {
+      "record_id": "pumpkin-seeds",
+      "grade": "Seeds",
+      "trade": "import",
+      "origins": [
+        "China"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "chia-seeds": [
+    {
+      "record_id": "chia-seeds",
+      "grade": "Seeds",
+      "trade": "import",
+      "origins": [
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "green-peas": [
+    {
+      "record_id": "green-peas",
+      "grade": "Dried peas",
+      "trade": "import",
+      "origins": [
+        "Canada"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "yellow-peas": [
+    {
+      "record_id": "yellow-peas",
+      "grade": "Dried peas",
+      "trade": "import",
+      "origins": [
+        "Canada"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "whole-lentils": [
+    {
+      "record_id": "whole-lentils",
+      "grade": "Whole pulses",
+      "trade": "import",
+      "origins": [
+        "Canada",
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "split-lentils": [
+    {
+      "record_id": "split-lentils",
+      "grade": "Split pulses",
+      "trade": "import",
+      "origins": [
+        "Canada",
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "black-gram": [
+    {
+      "record_id": "black-gram",
+      "grade": "Pulses",
+      "trade": "import",
+      "origins": [
+        "Myanmar"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "chickpeas": [
+    {
+      "record_id": "chickpeas",
+      "grade": "Whole pulses",
+      "trade": "import",
+      "origins": [
+        "Canada"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "castor-seeds": [
+    {
+      "record_id": "castor-seeds",
+      "grade": "Industrial oilseed",
+      "trade": "export",
+      "origins": [
+        "India"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Loading ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "canary-seeds": [
+    {
+      "record_id": "canary-seeds",
+      "grade": "Whole seeds",
+      "trade": "import",
+      "origins": [
+        "Canada"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "watermelon-seeds": [
+    {
+      "record_id": "watermelon-seeds",
+      "grade": "Whole or hulled seeds",
+      "trade": "import",
+      "origins": [
+        "China"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        25
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "oats": [
+    {
+      "record_id": "oats",
+      "grade": "Whole oats or groats",
+      "trade": "import",
+      "origins": [
+        "Ukraine"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "berseem-seeds": [
+    {
+      "record_id": "berseem-seeds",
+      "grade": "Fodder planting seeds",
+      "trade": "import",
+      "origins": [
+        "Egypt"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "red-kidney-beans": [
+    {
+      "record_id": "red-kidney-beans",
+      "grade": "Dried whole beans",
+      "trade": "import",
+      "origins": [
+        "Brazil"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "cashew": [
+    {
+      "record_id": "cashew",
+      "grade": "Shelled kernels",
+      "trade": "import",
+      "origins": [
+        "Africa"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "saffron": [
+    {
+      "record_id": "saffron",
+      "grade": "Dried threads",
+      "trade": "import",
+      "origins": [
+        "Iran",
+        "Spain"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "sesame-seeds-import": [
+    {
+      "record_id": "sesame-seeds-import",
+      "grade": "Natural or hulled seeds",
+      "trade": "import",
+      "origins": [
+        "Brazil",
+        "Africa"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ],
+  "maize-import": [
+    {
+      "record_id": "maize-import",
+      "grade": "Cattle-feed grain",
+      "trade": "import",
+      "origins": [
+        "United States"
+      ],
+      "crop": "Current season; confirm the offered harvest year with the quotation",
+      "packing_kg": [
+        50
+      ],
+      "port": "Destination ports: Mundra or Nhava Sheva",
+      "payments": "T/T, L/C or PayPal; payment schedule and method agreed in the quotation"
+    }
+  ]
+}
