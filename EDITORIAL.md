@@ -16,15 +16,15 @@ The owner requested two blog posts per month on 12 October 2026. As updated on 1
 
 ## Durable publishing route
 
-The source repository is the durable content store; articles are defined in insights.py. No browser session, WordPress login, Google sign-in or secret is required for this publication workflow.
+Since 17 November 2026 the site is hosted on GitHub Pages from the repository `shivaexim12-2607/shivaexim-website` (custom domain shivaexim.com). ChatGPT Sites is no longer used for publishing. No browser session, WordPress login or secret is required.
 
-1. Follow the current Sites skill. Read get_site for this linked project, acquire a new source repository write credential and open the repository using the official source helper. Credentials remain in memory and are passed only through hidden stdin.
-2. Inspect insights.py and the existing month/date coverage. If two articles for the target month already exist, do not create duplicates. After a partial prior run, resume its saved version/deployment rather than publishing twice.
-3. Append the new post to POSTS in insights.py. render_insights handles the article, index, byline and BlogPosting metadata. build.py includes the index and article paths in sitemap.xml. Do not replace prior posts.
-4. Run python build.py. Validate internal links, canonical URLs, JSON-LD and that sitemap URLs match generated pages. Preserve the logo plus SHIVA EXIM; do not restore the removed EXPORT & IMPORT subtitle. Browser QA is unavailable unless the supported Sites browser control becomes available; follow the skill's preview boundary.
-5. Package/push the exact checked source via the source helper, save the matching archive-backed version and deploy through the public Sites deployment operation. Native terminal success with the URL is required before reporting publication. Follow supported deployment status recovery for nonterminal or failed results.
-6. After successful deployment, run `python submit_indexnow.py https://shivaexim.com/insights/ https://shivaexim.com/insights/NEW-SLUG/` with the actual new article URL. Submit only changed published pages, not the full sitemap on every run. Report submission failures separately from publication; HTTP 200 means received and 202 means key validation pending, neither guarantees indexing.
-7. Read back the saved version/source metadata, and report the actual published article URL and substantive sources. If source access, publishing or verification fails, report the blocker; never claim the post is live. Store no private credentials in the repository. The IndexNow key is intentionally served as a public domain-verification file.
+1. Clone the repository. Inspect insights.py and the existing month/date coverage. If two articles for the target month already exist, do not create duplicates.
+2. Append the new post to the END of POSTS in insights.py and add its three key points to ARTICLE_POINTS in review_content.py. render_insights handles the article, index, byline and BlogPosting metadata; build.py includes the paths in sitemap.xml. Do not replace, re-date or reorder prior posts.
+3. Run `python build.py`. Validate internal links, canonical URLs, JSON-LD and that sitemap URLs match generated pages. Confirm `git diff --stat` touches only insights.py, review_content.py, the new article page, the insights index, sitemap.xml and pages that list recent articles. Preserve the logo plus SHIVA EXIM; do not restore the removed EXPORT & IMPORT subtitle.
+4. Commit source and dist/ together on `main` with message `Market Insights: <title>` and push. The workflow `.github/workflows/deploy-pages.yml` rebuilds, checks dist/ matches the source and deploys to GitHub Pages.
+5. Confirm the workflow run succeeded, then confirm https://shivaexim.com/insights/NEW-SLUG/ returns the article and the live sitemap lists it. Only then report publication.
+6. If network access allows, run `python submit_indexnow.py https://shivaexim.com/insights/ https://shivaexim.com/insights/NEW-SLUG/`. Report submission failures separately; 200/202 do not guarantee indexing.
+7. If source access, the deploy or verification fails, report the blocker; never claim the post is live. Store no private credentials in the repository. The IndexNow key is intentionally served as a public domain-verification file.
 
 The monthly routine was chosen as the 1st and 15th, around 10:00 IST, starting November 2026 because October already has two posts. The linked cloud schedule is authoritative for execution timing.
 
