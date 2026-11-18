@@ -5,12 +5,12 @@ menu?.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expan
 const catalogue=document.querySelector('.catalogue');
 if(catalogue){let category='All';const cards=[...catalogue.querySelectorAll('.product-card')];const search=document.querySelector('#product-search');const filter=()=>{let count=0;cards.forEach(card=>{const visible=(category==='All'||card.dataset.group===category)&&(card.dataset.search||card.dataset.name).includes(search.value.trim().toLowerCase());card.hidden=!visible;if(visible)count++;});catalogue.querySelector('.catalogue-status').textContent=`${count} product${count===1?'':'s'}`;catalogue.querySelector('.empty-state').hidden=count>0;};catalogue.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{category=btn.dataset.filter;catalogue.querySelectorAll('.filter').forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn));});filter();}));search.addEventListener('input',filter);}
 const form=document.querySelector('#enquiry-form');
-if(form){const query=new URLSearchParams(location.search);if([...form.product.options].some(o=>o.value===query.get('product')))form.product.value=query.get('product');if(['buy','supply','general'].includes(query.get('intent')))form.intent.value=query.get('intent');const status=document.querySelector('#form-status');
+if(form){const query=new URLSearchParams(location.search);if([...form.product.options].some(o=>o.value===query.get('product')))form.product.value=query.get('product');if(['buy','supply','sample','general'].includes(query.get('intent')))form.intent.value=query.get('intent');const status=document.querySelector('#form-status');
 const productOptions=[...form.product.options].map(option=>option.cloneNode(true));
 const productNote=document.querySelector('#product-choice-note');
 const filterProducts=()=>{
  const selected=form.product.value;
- const trade=form.intent.value==='buy'?'export':form.intent.value==='supply'?'import':null;
+ const trade=(form.intent.value==='buy'||form.intent.value==='sample')?'export':form.intent.value==='supply'?'import':null;
  const matching=productOptions.filter(option=>!trade||!option.dataset.trade||option.dataset.trade===trade);
  form.product.replaceChildren(...matching.map(option=>option.cloneNode(true)));
  form.product.value=matching.some(option=>option.value===selected)?selected:'';

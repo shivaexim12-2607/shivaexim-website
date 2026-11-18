@@ -72,3 +72,17 @@ body{padding-bottom:90px}.whatsapp-float{position:fixed;right:24px;bottom:max(22
 .commercial-overview{padding-top:2.5rem;padding-bottom:2.5rem}.commercial-overview dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem}.commercial-overview dl>div{border-top:1px solid #d8d8c9;padding-top:1rem}.commercial-overview dt{font-weight:700;color:#173c2f;margin-bottom:.55rem}.commercial-overview dd{margin:0;line-height:1.6}.regional-context{margin:1.8rem 0}.regional-context h3{margin-bottom:.7rem}.article-takeaways{background:#eeeee3;border-left:3px solid #b39b65;padding:1.3rem 1.6rem;margin:1.8rem 0 2.5rem}.article-takeaways h2{font-size:1.3rem;margin:0 0 .7rem}.article-takeaways li{margin:.6rem 0}.regional-note{font-size:.95rem;color:#52665a}@media(max-width:700px){.commercial-overview dl{grid-template-columns:1fr}.article-takeaways{padding:1rem 1.2rem}}
 
 .confirmed-product{padding-top:2.5rem;padding-bottom:3rem}.confirmed-product dl,.company-registrations{margin:1.2rem 0 2rem}.confirmed-product dl>div,.company-registrations>div{display:grid;grid-template-columns:minmax(160px,1fr) 2fr;gap:1rem;padding:.8rem 0;border-bottom:1px solid #d8d8c9}.confirmed-product dt,.company-registrations dt{font-weight:600;color:#173c2f}.confirmed-product dd,.company-registrations dd{margin:0;line-height:1.6}.confirmed-grades{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}.confirmed-grade h3{font-size:1.2rem}.confirmed-product .section-heading p{max-width:32rem}@media(max-width:600px){.confirmed-product dl>div{grid-template-columns:1fr;gap:.35rem}.confirmed-grades{grid-template-columns:1fr;gap:1rem}}
+
+/* Samples & FAQ (Nov 2026) */
+.closing-actions{display:flex;gap:14px;flex-wrap:wrap}
+.closing .button.secondary{border-color:var(--green)}
+.enquiry-panel .button.secondary{margin-bottom:6px}
+.sample-note{font-size:12px;color:var(--muted);margin:0 0 14px}
+.faq-page{display:grid;grid-template-columns:220px 1fr;gap:60px;padding-block:20px 70px}
+.faq-nav{position:sticky;top:20px;align-self:start;display:flex;flex-direction:column;gap:12px;font-size:13px;font-weight:600}
+.faq-nav a{color:var(--green)}
+.faq-group{margin-bottom:40px;scroll-margin-top:20px}
+.faq-group h2{font-size:28px;margin-bottom:6px}
+.faq-group details{display:block;border-top:0;border-bottom:1px solid var(--line);padding:18px 0;grid-template-columns:none;gap:0}
+.faq-group details p{margin:12px 0 0;font-size:14px;line-height:1.8}
+@media (max-width:800px){.faq-page{grid-template-columns:1fr;gap:24px}.faq-nav{position:static;flex-direction:row;flex-wrap:wrap;gap:10px 18px}.closing-actions{width:100%}.closing-actions .button{width:100%}}
