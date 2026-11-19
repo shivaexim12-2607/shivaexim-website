@@ -110,3 +110,22 @@ body{padding-bottom:90px}.whatsapp-float{position:fixed;right:24px;bottom:max(22
 .other-markets a{margin-left:14px;font-weight:600;color:var(--green);text-decoration:underline}
 @media (max-width:900px){.gulf-strip{flex-direction:column;align-items:flex-start;padding:26px 22px}.market-points{grid-template-columns:1fr 1fr}.market-tiles{grid-template-columns:1fr 1fr}.market-ship{grid-template-columns:1fr;gap:10px}}
 @media (max-width:560px){.market-points,.market-tiles{grid-template-columns:1fr}}
+
+/* Arabic (RTL) pages */
+.rtl{direction:rtl;text-align:right}
+.rtl,.rtl h1,.rtl h2,.rtl h3,.rtl p,.rtl a,.rtl summary,.rtl .eyebrow,.rtl .button{font-family:'Noto Naskh Arabic','Geeza Pro','Segoe UI',Tahoma,'Arial',sans-serif;letter-spacing:0}
+.rtl h1{line-height:1.35}
+.rtl h2{line-height:1.4}
+.rtl p{line-height:1.9}
+.rtl .eyebrow{font-size:13px;text-transform:none}
+.rtl .market-ship ul{padding-left:0;padding-right:18px}
+.rtl .other-markets a{margin-left:0;margin-right:14px}
+.rtl details summary{list-style-position:inside}
+.lang-switch{display:inline-block;float:right;font-size:14px;font-weight:600;color:var(--green);border:1px solid var(--line);padding:6px 12px;margin-bottom:12px}
+.rtl .lang-switch{float:left}
+.ar-products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.ar-product{display:block;background:var(--white);border:1px solid var(--line);padding:24px;color:inherit}
+.ar-product h3{font-size:22px;margin:0 0 6px}
+.ar-product p{font-size:14px;color:var(--muted);margin:0 0 14px}
+@media (max-width:900px){.ar-products{grid-template-columns:1fr 1fr}.lang-switch{float:none}}
+@media (max-width:560px){.ar-products{grid-template-columns:1fr}}

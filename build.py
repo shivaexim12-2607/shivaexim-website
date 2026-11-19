@@ -159,6 +159,8 @@ shell('photo-credits','Product Photo Credits','Sources and reuse credits for rep
 from insights import render_insights
 insight_paths = render_insights(shell, intro, BASE)
 market_paths = render_markets(shell, intro, card, PRODUCT_BY_SLUG, process)
+from markets_ar import render_markets_ar
+market_paths += render_markets_ar(shell, BASE, OUT)
 paths=['','exports','imports','about','faq','contact','privacy','photo-credits']+['products/'+p[0] for p in PRODUCTS]+market_paths+insight_paths
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}/{p+"/" if p else ""}</loc></url>' for p in paths)+'</urlset>')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n')

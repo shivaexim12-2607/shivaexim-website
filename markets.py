@@ -53,6 +53,7 @@ COUNTRIES = {
 
 def gulf_strip():
     links = ''.join(f'<a href="/markets/{s}/">{escape(c["name"])} →</a>' for s, c in COUNTRIES.items())
+    links += '<a href="/ar/markets/" lang="ar">بالعربية ←</a>'
     return ('<section class="gulf-strip wrap"><div><span class="eyebrow">FOR GULF BUYERS</span>'
             '<h2>Importing into the GCC?</h2><p>Pages for buyers in the UAE, Saudi Arabia, Oman and Qatar.</p></div>'
             f'<nav class="gulf-links" aria-label="Gulf country pages">{links}</nav></section>')
