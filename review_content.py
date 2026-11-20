@@ -18,11 +18,11 @@ def product_metadata(product):
         title = f'{label} Exporter from India — Gujarat'
         desc = f'{word} exporter in Mehsana, Gujarat, India: {label.lower()} in 99% Europe and 99% Singapore quality. Request a lot specification, sample and export quotation.'
     elif slug == 'alfalfa-seeds':
-        title = 'Alfalfa Seeds (Lucerne) Exporter from India'
-        desc = 'Alfalfa seed exporter in Mehsana, Gujarat, India: lucerne planting seed in single-year and multi-year quality. Discuss variety, germination, purity and lot reports.'
+        title = 'Alfalfa Seeds (Lucerne) Exporter & Supplier from India'
+        desc = 'Alfalfa (lucerne) seeds exporter and supplier from Gujarat, India: export-quality fodder planting seed, single-year and multi-year. Germination, purity and phytosanitary documents agreed per lot. Free samples, 1 MT minimum.'
     elif slug == 'onion-seeds':
-        title = 'Onion Seeds Exporter from India — Gujarat'
-        desc = 'Onion seed exporter in Mehsana, Gujarat, India: onion planting seed for crop production. Discuss variety, germination, purity, treatment and lot reports.'
+        title = 'Onion Seeds Exporter & Supplier from India — Gujarat'
+        desc = 'Onion seeds exporter and supplier from Gujarat, India: export-quality onion planting seed. Germination, purity and phytosanitary documents agreed per lot. Free samples, 1 MT minimum.'
     return title, desc, label
 
 def product_opening(product):
@@ -46,7 +46,7 @@ def commercial_overview(product):
     if slug not in PRIORITY:
         return ''
     quality = '99% Europe quality · 99% Singapore quality' if slug in {'cumin-seeds','fennel-seeds'} else 'Single-year quality · Multi-year quality; confirm variety and seed report' if slug == 'alfalfa-seeds' else 'Planting seed for onion crop production; confirm variety, germination and seed report' if slug == 'onion-seeds' else 'Natural or hulled; specify colour and intended use'
-    return '<section class="commercial-overview wrap"><div class="section-heading"><div><span class="eyebrow">BUYER QUICK VIEW</span><h2>Your starting specification.</h2></div></div><dl><div><dt>Product / quality options</dt><dd>'+escape(quality)+'</dd></div><div><dt>Business location</dt><dd>Mehsana, Gujarat, India</dd></div><div><dt>For a useful quotation</dt><dd>Grade, target test limits, packing, quantity, destination and shipment window</dd></div></dl><p class="small">Commercial grade names identify enquiry options. The offered lot’s analysis and final contract determine its specification.</p></section>'
+    return '<section class="commercial-overview wrap"><div class="section-heading"><div><span class="eyebrow">BUYER QUICK VIEW</span><h2>Your starting specification.</h2></div></div><dl><div><dt>Product / quality options</dt><dd>'+escape(quality)+'</dd></div><div><dt>Business location</dt><dd>Mehsana, Gujarat, India</dd></div><div><dt>Markets we supply</dt><dd>Gulf: <a href="/markets/uae/">UAE</a> · <a href="/markets/saudi-arabia/">Saudi Arabia</a> · <a href="/markets/oman/">Oman</a> · <a href="/markets/qatar/">Qatar</a>; also Europe, South Asia and Africa</dd></div><div><dt>For a useful quotation</dt><dd>Grade, target test limits, packing, quantity, destination and shipment window</dd></div></dl><p class="small">Commercial grade names identify enquiry options. The offered lot’s analysis and final contract determine its specification.</p></section>'
 
 def product_schema(product, base, description):
     slug, name, trade, group, *_ = product
