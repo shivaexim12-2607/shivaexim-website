@@ -129,3 +129,14 @@ body{padding-bottom:90px}.whatsapp-float{position:fixed;right:24px;bottom:max(22
 .ar-product p{font-size:14px;color:var(--muted);margin:0 0 14px}
 @media (max-width:900px){.ar-products{grid-template-columns:1fr 1fr}.lang-switch{float:none}}
 @media (max-width:560px){.ar-products{grid-template-columns:1fr}}
+
+/* Other names & onion varieties (Nov 2026) */
+.also-known{font-size:13px;color:var(--muted);margin:-4px 0 14px}
+.also-known span{font-weight:600;color:var(--green)}
+.onion-varieties{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;background:#e9eadf;padding:32px 36px;margin-block:30px}
+.onion-varieties h2{font-size:28px;margin:6px 0}
+.onion-varieties p{font-size:14px;margin:0}
+.onion-varieties nav{display:flex;flex-wrap:wrap;gap:10px}
+.onion-varieties nav a{border:1px solid var(--green);color:var(--green);padding:7px 12px;font-size:13px;font-weight:600}
+.onion-varieties nav a[aria-current=page]{background:var(--green);color:#fff}
+@media (max-width:800px){.onion-varieties{grid-template-columns:1fr;gap:18px;padding:24px 20px}}

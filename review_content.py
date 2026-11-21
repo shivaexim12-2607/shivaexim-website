@@ -10,7 +10,7 @@ def product_metadata(product):
     slug, name, trade, group, description, *_ = product
     label = ALIASES.get(slug, name)
     if trade == 'import':
-        return f'{name} Import Sourcing for India', f'Supply {name.lower()} to Shiva Exim for the Indian market. Send origin, specification, crop year, packing, quantity and shipment terms for review.', label
+        return f'{name} Importer in India — Supplier Offers Welcome', f'Shiva Exim is a {name.lower()} importer in India. Supply {name.lower()} to us for the Indian market. Send origin, specification, crop year, packing, quantity and shipment terms for review.', label
     title = f'{label} Exporter from India'
     desc = f'{name} from Shiva Exim, an agricultural exporter in Mehsana, Gujarat, India. Discuss your specification, packing, quantity and destination.'
     if slug in {'cumin-seeds', 'fennel-seeds'}:
@@ -36,7 +36,8 @@ def product_opening(product):
         return 'Shiva Exim is an alfalfa (lucerne) planting seed exporter based in Mehsana, Gujarat, India. Variety, germination and lot documentation are assessed for the buyer’s intended growing region.'
     if slug == 'onion-seeds':
         return 'Shiva Exim is an onion seed exporter based in Mehsana, Gujarat, India, supplying onion planting seed for crop production. Variety, germination and lot documentation are confirmed for the buyer’s growing region.'
-    return f'Shiva Exim lists {name.lower()} in its export portfolio. Share the product specification, quantity and destination for a quotation.'
+    desc = product[4]
+    return f'{desc} Shiva Exim exports this product from Mehsana, Gujarat, India. Share your specification, quantity and destination for a quotation.'
 
 def regional_context():
     return '<div class="regional-context"><h3>Mehsana and the Unjha spice market</h3><p>Our business is based in Mehsana, North Gujarat, near Unjha’s established cumin and fennel trading market. Compare origin, crop year and a representative sample when assessing an offer.</p><p class="small">Market context: <a href="https://www.apmcunjha.com/index.php/market" target="_blank" rel="noopener">APMC Unjha describes its cumin and fennel trade ↗</a>.</p></div>'
