@@ -44,7 +44,7 @@ SECTIONS = [
         ('From which port do you ship?',
          'We ship from Indian sea ports. The loading port is agreed in the quotation.'),
         ('Which countries do you supply?',
-         'We supply buyers in the Gulf (GCC), Europe, South Asia and Africa, and we welcome new buyers from other countries.'),
+         'We supply buyers in the Gulf (GCC), Europe, Pakistan, other South Asian markets and Africa. Our seeds, including alfalfa, go to Europe, Pakistan and the Gulf, and we welcome new buyers from other countries.'),
     ]),
     ('Payment', [
         ('Which payment terms do you accept?',
