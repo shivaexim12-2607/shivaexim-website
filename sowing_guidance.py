@@ -9,6 +9,13 @@ GUIDANCE = {
         'url': 'https://agritech.tnau.ac.in/agriculture/foragecrops_fodder_lucerne_crop%20production.html',
         'source': 'TNAU — Lucerne fodder crop production',
     },
+    'berseem-seeds': {
+        'rate': '20–25 kg/hectare (approximately 8–10 kg/acre)',
+        'method': 'Berseem (Egyptian clover) grown as an irrigated winter fodder; the cited forage-crops study material gives the last week of September to the first week of October as the best sowing time, drilled 25 cm apart.',
+        'scope': 'A general Indian reference for a fodder crop. Confirm the rate for your region, sowing method, seed lot germination and local agricultural advice.',
+        'url': 'https://www.davuniversity.org/images/files/study-material/Forage%20crops.pdf',
+        'source': 'DAV University — Forage crops study material (Berseem)',
+    },
     'onion-seeds': {
         'rate': '8–12 kg/hectare of final field area (approximately 3.2–4.9 kg/acre)',
         'method': 'Seed used to raise nursery seedlings for transplanting common big / Bellary onion. The rate is based on the final transplanted field area, not the nursery-bed area.',

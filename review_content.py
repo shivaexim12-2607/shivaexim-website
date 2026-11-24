@@ -9,6 +9,8 @@ PRIORITY = {'cumin-seeds', 'fennel-seeds', 'alfalfa-seeds', 'onion-seeds', 'sesa
 def product_metadata(product):
     slug, name, trade, group, description, *_ = product
     label = ALIASES.get(slug, name)
+    if slug == 'berseem-seeds':
+        return 'Berseem Seed (Imported) — Buy in India for Dealers & Farmers', 'Buy imported berseem (barseem) fodder seed in India from Shiva Exim, Mehsana, Gujarat. Seed rate per acre, sowing time and wholesale supply for dealers. Enquire on WhatsApp.', 'Berseem seed (Barseem)'
     if trade == 'import':
         return f'{name} Importer in India — Supplier Offers Welcome', f'Shiva Exim is a {name.lower()} importer in India. Supply {name.lower()} to us for the Indian market. Send origin, specification, crop year, packing, quantity and shipment terms for review.', label
     title = f'{label} Exporter from India'
