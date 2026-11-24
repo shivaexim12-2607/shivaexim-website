@@ -19,9 +19,12 @@ def product_metadata(product):
         word = 'Cumin' if slug == 'cumin-seeds' else 'Fennel'
         title = f'{label} Exporter from India — Gujarat'
         desc = f'{word} exporter in Mehsana, Gujarat, India: {label.lower()} in 99% Europe and 99% Singapore quality. Request a lot specification, sample and export quotation.'
+        if slug == 'cumin-seeds':
+            title = 'Cumin Seeds (Jeera) Exporter India — Unjha, 99% Europe Quality'
+            desc = 'Cumin seeds (jeera) exporter from Mehsana near Unjha, Gujarat — Asia’s largest cumin market. 99% Europe and Singapore quality, new crop Feb–Apr, HS 0909.31. Free samples, 1 MT minimum.'
     elif slug == 'alfalfa-seeds':
-        title = 'Alfalfa Seeds (Lucerne) Exporter & Supplier from India'
-        desc = 'Alfalfa (lucerne) seeds exporter and supplier from Gujarat, India: export-quality fodder planting seed, single-year and multi-year. Germination, purity and phytosanitary documents agreed per lot. Free samples, 1 MT minimum.'
+        title = 'Alfalfa (Lucerne) Seeds Exporter India — Seed Rate per Acre & Supply'
+        desc = 'Alfalfa (lucerne) seeds exporter and supplier from Gujarat, India: fodder planting seed, single-year and multi-year, about 8 kg per acre. Exported to Europe, Pakistan and the Gulf. Germination, purity and phytosanitary documents agreed per lot. Free samples, 1 MT minimum.'
     elif slug == 'onion-seeds':
         title = 'Onion Seeds Exporter & Supplier from India — Gujarat'
         desc = 'Onion seeds exporter and supplier from Gujarat, India: export-quality onion planting seed. Germination, purity and phytosanitary documents agreed per lot. Free samples, 1 MT minimum.'
