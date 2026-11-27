@@ -182,7 +182,9 @@ insight_paths = render_insights(shell, intro, BASE)
 market_paths = render_markets(shell, intro, card, PRODUCT_BY_SLUG, process)
 from markets_ar import render_markets_ar
 market_paths += render_markets_ar(shell, BASE, OUT)
-paths=['','exports','imports','about','faq','contact','privacy','photo-credits']+['products/'+p[0] for p in PRODUCTS]+market_paths+insight_paths
+from pages_hi import render_pages_hi
+hi_paths = render_pages_hi(shell, BASE, OUT)
+paths=['','exports','imports','about','faq','contact','privacy','photo-credits']+['products/'+p[0] for p in PRODUCTS]+market_paths+insight_paths+hi_paths
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}/{p+"/" if p else ""}</loc></url>' for p in paths)+'</urlset>')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n')
 indexnow_key=(ROOT/'indexnow-key.txt').read_text(encoding='utf-8').strip()
