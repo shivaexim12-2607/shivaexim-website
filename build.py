@@ -1,3 +1,5 @@
+import re
+import shutil
 from pathlib import Path
 from confirmed_terms import confirmed_product_html, company_html
 import json, html
@@ -186,6 +188,14 @@ from pages_hi import render_pages_hi
 hi_paths = render_pages_hi(shell, BASE, OUT)
 paths=['','exports','imports','about','faq','contact','privacy','photo-credits']+['products/'+p[0] for p in PRODUCTS]+market_paths+insight_paths+hi_paths
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}/{p+"/" if p else ""}</loc></url>' for p in paths)+'</urlset>')
+# Branded 404 page (GitHub Pages serves /404.html for missing URLs) and old-URL redirects
+shell('404-tmp','Page not found','This page does not exist on shivaexim.com.',intro('PAGE NOT FOUND','This page does not exist.','The link may be old or mistyped. Try one of our main pages below, or contact us on WhatsApp +91 9099666604.')+'<section class="wrap"><p><a class="button" href="/products/cumin-seeds/">Cumin seeds ↗</a> <a class="button secondary" href="/products/alfalfa-seeds/">Alfalfa seeds ↗</a> <a class="button secondary" href="/products/berseem-seeds/">Berseem seed ↗</a> <a class="button secondary" href="/exports/">All export products ↗</a> <a class="button secondary" href="/contact/">Contact ↗</a></p></section>')
+_t=(OUT/'404-tmp'/'index.html').read_text().replace('<meta name="robots" content="index, follow">','<meta name="robots" content="noindex">',1)
+_t=re.sub(r'<link rel="canonical"[^>]*>','',_t,count=1)
+(OUT/'404.html').write_text(_t); shutil.rmtree(OUT/'404-tmp')
+for _old,_new in [('alfalfa-seeds','products/alfalfa-seeds')]:
+    (OUT/_old).mkdir(parents=True,exist_ok=True)
+    (OUT/_old/'index.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved</title><link rel="canonical" href="{BASE}/{_new}/"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={BASE}/{_new}/"></head><body><a href="{BASE}/{_new}/">This page has moved</a></body></html>')
 (OUT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n')
 indexnow_key=(ROOT/'indexnow-key.txt').read_text(encoding='utf-8').strip()
 (OUT/f'{indexnow_key}.txt').write_text(indexnow_key,encoding='utf-8')
