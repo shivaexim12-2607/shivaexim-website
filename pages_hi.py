@@ -63,7 +63,7 @@ PAGES = {
 def _body(slug, p):
     wa = f'https://wa.me/{PHONE}?text=' + quote(p['wa'])
     rows = ''.join(f'<tr><th scope="row">{escape(a)}</th><td>{escape(b)}</td></tr>' for a, b in p['rows'])
-    faq = ''.join(f'<details><summary>{escape(q)}</summary><p>{escape(a)}</p></details>' for q, a in p['faq'])
+    faq = ''.join(f'<details open><summary>{escape(q)}</summary><p>{escape(a)}</p></details>' for q, a in p['faq'])
     src_name, src_url = p['source']
     return (
         '<div lang="hi">'
